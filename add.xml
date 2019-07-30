@@ -1,0 +1,131 @@
+<AddFiles directory="assets">
+
+	<!-- BARREL -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/brrrt_barrel_std_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/brrrt_barrel_std_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/wpn_fps_pis_brrrt_ba_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/wpn_fps_pis_brrrt_ba_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/wpn_fps_pis_brrrt_ba_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/wpn_fps_pis_brrrt_ba_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/wpn_fps_pis_brrrt_ba_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/wpn_fps_pis_brrrt_ba_std_thq"/>
+	
+	<!-- FRAME -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/brrrt_frame_std_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/brrrt_frame_std_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_std_thq"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/brrrt_frame_gen3_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/brrrt_frame_gen3_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_gen3"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_gen3"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_gen3"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_gen3"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_gen3"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_gen3_thq"/>
+	
+	<!-- MAG -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/brrrt_mag_std_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/brrrt_mag_std_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_std_thq"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/brrrt_mag_33_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/brrrt_mag_33_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_33"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_33"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_33"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_33"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_33"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_33_thq"/>
+	
+	<!-- SIGHT -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/brrrt_sight_front_std_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/brrrt_sight_front_std_nm"/>
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/brrrt_sight_rear_std_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/brrrt_sight_rear_std_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_fo_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_fo_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_fo_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_fo_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_fo_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_fo_std_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_ro_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_ro_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_ro_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_ro_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_ro_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_ro_std_thq"/>
+	
+	<!-- SLIDE -->
+	
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/brrrt_slide_std_df"/>
+	<texture         path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/brrrt_slide_std_nm"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/wpn_fps_pis_brrrt_sl_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/wpn_fps_pis_brrrt_sl_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/wpn_fps_pis_brrrt_sl_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/wpn_fps_pis_brrrt_sl_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/wpn_fps_pis_brrrt_sl_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/wpn_fps_pis_brrrt_sl_std_thq"/>
+	
+	<!-- MISC -->
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_tr_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_tr_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_tr_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_tr_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_tr_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_tr_std_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_mr_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_mr_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_mr_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_mr_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_mr_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_mr_std_thq"/>
+	
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_sc_std"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_sc_std"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_sc_std"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_sc_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_sc_std"/>
+	<material_config path="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_sc_std_thq"/>
+
+	<!-- WEAPON -->
+
+	<cooked_physics  path="units/mods/weapons/wpn_fps_pis_brrrt/wpn_fps_pis_brrrt"/>
+	<model           path="units/mods/weapons/wpn_fps_pis_brrrt/wpn_fps_pis_brrrt"/>
+	<object          path="units/mods/weapons/wpn_fps_pis_brrrt/wpn_fps_pis_brrrt"/>
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt/wpn_fps_pis_brrrt"/>
+	
+	<unit            path="units/mods/weapons/wpn_fps_pis_brrrt/wpn_fps_pis_brrrt_npc"/>
+	
+	<!-- ICONS -->
+	
+	<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/brrrt"/>
+	
+	<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_pis_brrrt_m_33"/>
+	
+</AddFiles>

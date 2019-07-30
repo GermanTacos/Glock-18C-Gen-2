@@ -1,0 +1,18 @@
+<dynamic_object>
+    <diesel orientation_object="rp_wpn_fps_pis_p226"/>
+    <animations>
+		<animation_group name="reload">
+			<object name="mag_align" enabled="true" />	
+			<object name="anim_bolt_reload" enabled="true" />	
+		</animation_group>
+		<animation_group name="reload_not_empty">
+			<object name="mag_align2" enabled="true" />	
+		</animation_group>
+		<animation_group name="recoil">
+			<object name="anim_bolt_recoil" enabled="true" />	
+		</animation_group>
+		<animation_group name="last_recoil">
+			<object name="anim_bolt_last_recoil" enabled="true" />	
+		</animation_group>
+	</animations>
+</dynamic_object>

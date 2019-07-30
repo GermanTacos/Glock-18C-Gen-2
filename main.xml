@@ -1,0 +1,173 @@
+<table name="Glock 18C Gen 2" image="guis/brrrt" color="Color(0.8, 0.2, 0.8)">
+
+	<Localization directory="locals" default="english.txt"/>
+	
+<!--<AssetUpdates id="24018" name="asset_updates" version="1.1" provider="modworkshop"/>-->
+	
+	<GlobalValue id="brrrt" color="Color(0.8, 0.2, 0.8)"/>
+
+	<WeaponMod id="wpn_fps_pis_brrrt_fr_std"  based_on="wpn_fps_pis_p226_body_standard"    type="lower_reciever" unit="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_tr_std"  based_on="wpn_fps_pis_p226_body_standard"    type="trigger"        unit="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_tr_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_mr_std"  based_on="wpn_fps_pis_p226_body_standard"    type="mag_release"    unit="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_mr_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_sc_std"  based_on="wpn_fps_pis_p226_body_standard"    type="slide_catch"    unit="units/mods/weapons/wpn_fps_pis_brrrt_misc_pts/wpn_fps_pis_brrrt_sc_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_ba_std" based_on="wpn_fps_pis_p226_b_barrel_standard" type="barrel"         unit="units/mods/weapons/wpn_fps_pis_brrrt_barrel_pts/wpn_fps_pis_brrrt_ba_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
+		</forbids>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_sl_std" based_on="wpn_fps_pis_p226_b_standard"        type="slide"          unit="units/mods/weapons/wpn_fps_pis_brrrt_slide_pts/wpn_fps_pis_brrrt_sl_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_fo_std" based_on="wpn_fps_pis_p226_b_standard"        type="iron_front"      unit="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_fo_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_ro_std" based_on="wpn_fps_pis_p226_b_standard"        type="iron_rear"      unit="units/mods/weapons/wpn_fps_pis_brrrt_sight_pts/wpn_fps_pis_brrrt_ro_std" texture_bundle_folder="mods" drop="false" is_a_unlockable="false">
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_m_std"  based_on="wpn_fps_pis_p226_m_standard"        type="magazine"       unit="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_std"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+
+	<!-- MODS -->
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_fr_gen3"  based_on="wpn_fps_pis_p226_body_standard"    type="lower_reciever" unit="units/mods/weapons/wpn_fps_pis_brrrt_frame_pts/wpn_fps_pis_brrrt_fr_gen3" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="1" concealment="-1"/>
+		<forbids>
+			<value_node value="wpn_fps_pis_p226_b_barrel_standard"/>
+			<value_node value="wpn_fps_pis_p226_o_standard"/>
+		</forbids>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_pis_brrrt_m_33"  based_on="wpn_fps_pis_p226_m_standard"         type="magazine"       unit="units/mods/weapons/wpn_fps_pis_brrrt_mag_pts/wpn_fps_pis_brrrt_m_33" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats recoil="-3" concealment="-4"/>
+		<override_weapon CLIP_AMMO_MAX="33"/>
+		<pcs/>
+	</WeaponMod>
+	
+	<Weapon unlock_level="0">
+		<weapon id="brrrt" based_on="p226" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="10" tactical_reload="1" texture_bundle_folder="mods" global_value="brrrt">
+			<stats damage="58" spread="9" spread_moving="22" recoil="3" concealment="25"/>
+			<timers reload_not_empty="1.5" reload_empty="2.2"/>
+			<fire_mode_data fire_rate="0.06"/>
+			<AMMO_PICKUP>
+				<value_node value="3"/>
+				<value_node value="5"/>
+			</AMMO_PICKUP>
+			<sounds fire="brrrt_fire">
+				<reload wp_usp_clip_out="wp_brrrt_mag_slide_out" wp_usp_clip_slide_in="wp_brrrt_mag_slide_in" wp_g17_lever_release="wp_brrrt_slide_release" wp_packrat_mag_throw="wp_brrrt_mag_slide_out" wp_packrat_mag_in="wp_brrrt_mag_slide_in" wp_packrat_slide_back="wp_brrrt_slide_back" wp_packrat_slide_release="wp_brrrt_slide_release_wick"/>
+			</sounds>
+			<animations reload_name_id="p226"/>
+		</weapon>
+
+		<factory id="wpn_fps_pis_brrrt" unit="units/mods/weapons/wpn_fps_pis_brrrt/wpn_fps_pis_brrrt">
+			
+			<animations reload="reload" reload_not_empty="reload_not_empty" fire="recoil" fire_steelsight="recoil" magazine_empty="last_recoil"/>
+			
+			<optional_types>
+				<value_node value="barrel"/>
+				<value_node value="barrel_ext"/>
+				<value_node value="slide"/>
+			</optional_types>
+			
+			<override>
+				<wpn_fps_upg_o_rmr parent="slide"/>
+			</override>
+			
+			<default_blueprint>
+			
+				<value_node value="wpn_fps_pis_brrrt_fr_std"/>
+				<value_node value="wpn_fps_pis_brrrt_tr_std"/>
+				<value_node value="wpn_fps_pis_brrrt_mr_std"/>
+				<value_node value="wpn_fps_pis_brrrt_sc_std"/>
+				<value_node value="wpn_fps_pis_brrrt_ba_std"/>
+				<value_node value="wpn_fps_pis_brrrt_sl_std"/>
+				<value_node value="wpn_fps_pis_brrrt_ro_std"/>
+				<value_node value="wpn_fps_pis_brrrt_fo_std"/>
+				<value_node value="wpn_fps_pis_brrrt_m_std"/>
+				
+			</default_blueprint>
+			
+			<uses_parts>
+			
+				<value_node value="wpn_fps_pis_brrrt_fr_std"/>
+				<value_node value="wpn_fps_pis_brrrt_tr_std"/>
+				<value_node value="wpn_fps_pis_brrrt_mr_std"/>
+				<value_node value="wpn_fps_pis_brrrt_sc_std"/>
+				<value_node value="wpn_fps_pis_brrrt_ba_std"/>
+				<value_node value="wpn_fps_pis_brrrt_sl_std"/>
+				<value_node value="wpn_fps_pis_brrrt_ro_std"/>
+				<value_node value="wpn_fps_pis_brrrt_fo_std"/>
+				<value_node value="wpn_fps_pis_brrrt_m_std"/>
+				
+				<value_node value="wpn_fps_pis_brrrt_fr_gen3"/>
+				
+				<value_node value="wpn_fps_pis_brrrt_m_33"/>
+				
+				<value_node value="wpn_fps_upg_ns_pis_large"/>
+				<value_node value="wpn_fps_upg_ns_pis_medium"/>
+				<value_node value="wpn_fps_upg_ns_pis_small"/>
+				<value_node value="wpn_fps_upg_ns_pis_large_kac"/>
+				<value_node value="wpn_fps_upg_ns_pis_medium_gem"/>
+				<value_node value="wpn_fps_upg_ns_pis_medium_slim"/>
+				<value_node value="wpn_fps_upg_ns_pis_jungle"/>
+				<value_node value="wpn_fps_upg_ns_pis_meatgrinder"/>
+				<value_node value="wpn_fps_upg_ns_pis_ipsccomp"/>
+				<value_node value="wpn_fps_upg_pis_ns_flash"/>
+				
+				<value_node value="wpn_fps_upg_fl_pis_laser"/>
+				<value_node value="wpn_fps_upg_fl_pis_tlr1"/>
+				<value_node value="wpn_fps_upg_fl_pis_crimson"/>
+				<value_node value="wpn_fps_upg_fl_pis_x400v"/>
+				<value_node value="wpn_fps_upg_fl_pis_m3x"/>
+				
+				<value_node value="wpn_fps_upg_o_rmr"/>
+
+			</uses_parts>
+			
+		</factory>
+		<stance>
+			<steelsight>
+				<shoulders translation="-8.572 -2.166 4.78"/>
+			</steelsight>
+		</stance>
+	</Weapon>
+	
+	<Sounds directory="assets\sounds">
+		<sound id="brrrt_fire" path="brrrt_fire.ogg" prefix="regular"/>
+		<sound id="brrrt_fire" path="brrrt_cof.ogg" prefix="regular_a"/>
+		<sound id="brrrt_fire" path="brrrt_pr.ogg" prefix="regular_b"/>
+		<sound id="wp_brrrt_slide_release" path="wp_brrrt_slide_release.ogg" prefix="first"/>
+		<sound id="wp_brrrt_slide_release" path="wp_brrrt_slide_release.ogg" prefix="third"/>
+		<sound id="wp_brrrt_mag_slide_out" path="wp_brrrt_mag_slide_out.ogg" prefix="first"/>
+		<sound id="wp_brrrt_mag_slide_out" path="wp_brrrt_mag_slide_out.ogg" prefix="third"/>
+		<sound id="wp_brrrt_mag_slide_in"  path="wp_brrrt_mag_slide_in.ogg" prefix="first"/>
+		<sound id="wp_brrrt_mag_slide_in"  path="wp_brrrt_mag_slide_in.ogg" prefix="third"/>
+		<sound id="wp_brrrt_slide_back"  path="wp_brrrt_slide_back.ogg" prefix="first"/>
+		<sound id="wp_brrrt_slide_back"  path="wp_brrrt_slide_back.ogg" prefix="third"/>
+		<sound id="wp_brrrt_slide_release_wick"  path="wp_brrrt_slide_release_wick.ogg" prefix="first"/>
+		<sound id="wp_brrrt_slide_release_wick"  path="wp_brrrt_slide_release_wick.ogg" prefix="third"/>
+		<redirect id="brrrt_fire" to="p226r_fire" prefix="suppressed_a"/>
+		<redirect id="brrrt_fire" to="p226r_fire" prefix="suppressed_b"/>
+		<redirect id="brrrt_fire" to="p226r_fire" prefix="suppressed_c"/>
+	</Sounds>
+	
+	<Hooks directory="hooks">
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weapontweakdata.lua"        source_file="lib/tweak_data/weapontweakdata"/>
+	</Hooks>
+	
+</table>
