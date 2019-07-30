@@ -59,18 +59,18 @@
 	</WeaponMod>
 	
 	<Weapon unlock_level="0">
-		<weapon id="brrrt" based_on="p226" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="10" tactical_reload="1" texture_bundle_folder="mods" global_value="brrrt">
-			<stats damage="58" spread="9" spread_moving="22" recoil="3" concealment="25"/>
+		<weapon id="brrrt" based_on="p226" weapon_hold="glock" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="10" CAN_TOGGLE_FIREMODE="true" FIRE_MODE="auto" tactical_reload="1" texture_bundle_folder="mods" global_value="brrrt">
+			<stats damage="55" spread="9" spread_moving="22" recoil="3" concealment="25"/>
 			<timers reload_not_empty="1.5" reload_empty="2.2"/>
 			<fire_mode_data fire_rate="0.06"/>
 			<AMMO_PICKUP>
 				<value_node value="3"/>
 				<value_node value="5"/>
 			</AMMO_PICKUP>
-			<sounds fire="brrrt_fire">
+			<sounds fire="brrrt_fire" fire_single="brrrt_fire" use_fix="true">
 				<reload wp_usp_clip_out="wp_brrrt_mag_slide_out" wp_usp_clip_slide_in="wp_brrrt_mag_slide_in" wp_g17_lever_release="wp_brrrt_slide_release" wp_packrat_mag_throw="wp_brrrt_mag_slide_out" wp_packrat_mag_in="wp_brrrt_mag_slide_in" wp_packrat_slide_back="wp_brrrt_slide_back" wp_packrat_slide_release="wp_brrrt_slide_release_wick"/>
 			</sounds>
-			<animations reload_name_id="p226"/>
+			<animations reload_name_id="glock_18c"/>
 		</weapon>
 
 		<factory id="wpn_fps_pis_brrrt" unit="units/mods/weapons/wpn_fps_pis_brrrt/wpn_fps_pis_brrrt">
