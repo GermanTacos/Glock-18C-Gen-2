@@ -62,7 +62,7 @@
 		<weapon id="brrrt" based_on="p226" weapon_hold="glock" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="10" CAN_TOGGLE_FIREMODE="true" FIRE_MODE="auto" tactical_reload="1" texture_bundle_folder="mods" global_value="brrrt">
 			<stats damage="55" spread="9" spread_moving="22" recoil="3" concealment="25"/>
 			<timers reload_not_empty="1.5" reload_empty="2.2"/>
-			<fire_mode_data fire_rate="0.06"/>
+			<fire_mode_data fire_rate="0.05"/>
 			<AMMO_PICKUP>
 				<value_node value="3"/>
 				<value_node value="5"/>
